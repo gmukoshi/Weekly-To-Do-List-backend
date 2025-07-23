@@ -11,5 +11,5 @@ server.use('/tasks', router); // Your API endpoint
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  console.log(`Server running at https://weekly-to-do-list-backend.onrender.com:${PORT}`);
 });
